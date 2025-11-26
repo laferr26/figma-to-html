@@ -201,7 +201,7 @@ a {
 
 /* =============hero right=============== */
 
-.hero .conten-block {
+.hero .content-block {
   width: 52%;
   margin-left: 130px;
   padding-top: 64px;
@@ -508,4 +508,21 @@ a {
   height: 50px;
   border-radius: 26px;
   background-color: var(--primary--color);
+}
+
+/* ===============feature 2============= */
+
+.feature-2nd {
+  margin-top: 70px;
+}
+
+.feature-2nd .body {
+  flex-direction: row-reverse;
+}
+.feature-2nd .content {
+  width: 49%;
+}
+.feature-2nd .images img {
+  width: 470px;
+  height: 440px;
 }
