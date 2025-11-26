@@ -396,3 +396,66 @@ a {
   background: var(--primary--color);
   box-shadow: 0px 18px 36px 0px #0000000d;
 }
+/* ===============feedback============= */
+
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background-color: #2e2100;
+}
+
+.feedback-item {
+  background-color: #2e2100;
+  display: flex;
+}
+
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback-item .info .member-name {
+  margin-top: 18px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 2.4rem;
+  line-height: 1.42;
+  color: #f7f7f7;
+}
+.feedback-item .info .desc {
+  color: #bfbcb2;
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.feedback-item .info .dots {
+  gap: 6px;
+  display: flex;
+  margin-top: 28px;
+}
+.feedback-item .info .dot {
+  cursor: pointer;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #634700;
+}
+.feedback-item .info .dot.active {
+  cursor: default;
+  background-color: var(--primary--color);
+}
+.feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+
+.feedback-item blockquote {
+  font-style: Italic;
+  font-size: 2.6rem;
+  line-height: 1.54;
+  color: #ffffff;
+}
